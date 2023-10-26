@@ -43,7 +43,7 @@ senha.addEventListener("input", function(){
     for(let i = 0; i < senha.length; i++){
         if((arrayNumeros.toString()).includes(senha[i])){
             count += 1;
-            break;
+
         }
     }
 
@@ -51,14 +51,14 @@ senha.addEventListener("input", function(){
     for(let i = 0; i < senha.length; i++){
         if(arrayMinusculas.includes(senha[i])){
             count += 1;
-            break;
+
         }
     }
            
     for(let i = 0; i < senha.length; i++){
         if(arrayMaiusculas.includes(senha[i])){
             count += 1;
-            break;
+
         }
     }
 
@@ -66,7 +66,7 @@ senha.addEventListener("input", function(){
     for(let i = 0; i < senha.length; i++){
         if(arrayCaracteres.includes(senha[i])){
             count += 2;
-            break;
+
         }
     }
 
