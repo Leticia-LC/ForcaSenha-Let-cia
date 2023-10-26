@@ -8,23 +8,22 @@
       
 </head>
 <body>
-    <script src="main.js"></script>
-
-    <div class="conatiner">
-
+    <div class="container">
         <h1>Verificar força da senha</h1><br>
 
         <div class="input">
-            <input type="password" id="idSenha" required>
-            <button type="button" id="idButton" onclick="mostrarSenha()">SHOW</button>
-
-            <div class="barraProtecao" id="protecaoSenha"></div>
-            <div class="status"></div>
-            <output id="idOut"></output>
+            <input type="password" id="idSenha">
+            <button type="button" id="idButton">SHOW</button>
+            <div class="barraProgresso">
+            </div>
         </div>
-
+        <br>
+        <div class="status"></div>
+        <output id="idOut"></output>
     </div>
+
+    <script src="main.js"></script>
+
 </body>
-    
-</body>
+
 </html>

@@ -15,6 +15,24 @@ body {
 
 }
 
+main {
+    flex-direction: column;
+
+}
+
+.container {
+    background-color: rgb(35, 35, 35);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
 h1 {
     color:rgb(83, 83, 83);
     font-size: 15px;
@@ -24,7 +42,7 @@ h1 {
 
 input {
     background-color: rgb(16, 16, 16);
-    width: 70px;
+    width: 150px;
     height: 25px;
     border: 1px solid black;
     cursor: pointer;
@@ -37,7 +55,7 @@ button {
     color:rgb(255, 255, 255);
     height: 30px;
     width: 70px;
-
+    cursor: pointer;
     margin-left: 5px;
 
 }
@@ -46,6 +64,6 @@ button:hover {
     background-color: rgb(48, 48, 48);
 }
 
-.barraProtecao{
+.barraProgresso{
 
 }
