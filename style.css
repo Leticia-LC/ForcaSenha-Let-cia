@@ -64,6 +64,33 @@ button:hover {
     background-color: rgb(48, 48, 48);
 }
 
-.barraProgresso{
-
+.senhaInput {
+    background-color: rgb(16, 16, 16);
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white; 
 }
+
+.barraProgresso {
+    width: 0;
+    height: 5px;
+    background-color: gray;
+    margin-top: 10px;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.barraFraca {
+    background-color: red;
+}
+
+.barraModerada {
+    background-color: orange;
+}
+
+.barraForte {
+    background-color: green;
+}
+
